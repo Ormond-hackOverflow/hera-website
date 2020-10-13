@@ -194,8 +194,8 @@ input, select, textarea {
 
 	.pinksep {
 		border: 0;
-		border-bottom: solid 2em #f4c2c3;
-		margin: 2em 0;
+		border-bottom: solid 0.5em #f4c2c3;
+		margin: 0 0;
 	}
 
 		hr.major {
@@ -2040,7 +2040,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 1em 0;
+		margin: 0 0 2em 0;
 	}
 
 		header.major:after {
@@ -2378,13 +2378,19 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
-		.image.img-center  img{
+		.image.img-center img{
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
-			width: 50%;
+			width: 40%;
 			margin-bottom: 0.5em;
 			top: 0.25em;
+		}
+		.testtube{
+			display: block;
+		}
+		.testtube img {
+			width: 10%!important;
 		}
 
 		.image.right {
@@ -2843,7 +2849,7 @@ input, select, textarea {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/lightblueblur2.jpg"), url("../../images/Light-Blue-blur1.jpg");
 			background-size: auto,							cover;
 		}
 
