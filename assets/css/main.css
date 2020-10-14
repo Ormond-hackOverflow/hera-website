@@ -2412,12 +2412,19 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
+		.image.headshot {
+			margin: 1.5em 0 1em 0;
+		}
 
 			.image.fit img {
 				width: 100%;
 			}
 
 /* List */
+
+header.major.team {
+	margin-bottom: 0;
+}
 
 	ol {
 		list-style: decimal;
