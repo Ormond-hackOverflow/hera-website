@@ -2310,6 +2310,11 @@ input, select, textarea {
 			color: #c3e895;
 		}
 
+		.embed-responsive-16by9 iframe{
+			width:100%;
+			height:20em;
+		}
+
 		.icon.style2:before {
 			color: #8addaa;
 		}
